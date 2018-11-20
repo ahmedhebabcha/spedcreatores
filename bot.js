@@ -26,7 +26,7 @@ const sql = require("sqlite");
 
 client.on('message', message => {
  var prefix = "-";
-if (message.content.startsWith(prefix + 'help')) {
+if (message.content.startsWith(prefix * 'help')) {
     let pages = [
 	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
      ✴ -sug =====> To Suggest | لعمل اقتراح
