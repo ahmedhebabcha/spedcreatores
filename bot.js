@@ -25,7 +25,7 @@ const sql = require("sqlite");
 ,spee={}; 
 
 client.on('message', message => {
- var prefix = "-";
+ var prefix = *
 if (message.content.startsWith(prefix * 'help')) {
     let pages = [
 	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
@@ -144,7 +144,7 @@ if (message.content.startsWith(prefix * 'help')) {
 });
 
 client.on('message' , message => {
-  var prefix = "-";
+  var prefix =*
   if(message.author.bot) return;
  
   if(message.content.startsWith(prefix + "xo")) {
@@ -212,7 +212,7 @@ client.on('message' , message => {
     let messageArray = message.content.split(" ");
     let cmd = messageArray[0];
     let args = messageArray.slice(1);
-    let prefix = '-';
+    let prefix =*
 
 if(cmd === `${prefix}sug`) {
     var suggestMessage = message.content.substring(8)
@@ -428,7 +428,7 @@ client.channels.get("467833183254347797").sendEmbed(embed)
 });
  
 
-const prefix = ">"
+const prefix = *
 client.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
@@ -614,7 +614,7 @@ function play(guild, song) {
 
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
-const adminprefix = "-v";
+const adminprefix = *
 const devs = ['349616310734553088','335027415619338240'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
@@ -653,7 +653,7 @@ if(ra3d.content.startsWith(prefix + 'ccolors')) {
        });
 
 client.on('message', message => {
-var prefix = "-";
+var prefix =*
 var cats = ["http://www.shuuf.com/shof/uploads/2015/09/09/jpg/shof_b9d73150f90a594.jpg","https://haltaalam.info/wp-content/uploads/2015/05/0.208.png","https://haltaalam.info/wp-content/uploads/2015/05/266.png","https://haltaalam.info/wp-content/uploads/2015/05/250.png","https://haltaalam.info/wp-content/uploads/2017/02/0.2517.png","https://pbs.twimg.com/media/CP0mi02UAAA3U2z.png","http://www.shuuf.com/shof/uploads/2015/08/31/jpg/shof_3b74fa7295ec445.jpg","http://www.shuuf.com/shof/uploads/2015/08/22/jpg/shof_fa3be6ab68fb415.jpg","https://pbs.twimg.com/media/CSWPvmRUcAAeZbt.png","https://pbs.twimg.com/media/B18VworIcAIMGsE.png"]
         var args = message.content.split(" ").slice(1);
     if(message.content.startsWith(prefix + 'هل تعلم')) {
@@ -1277,7 +1277,7 @@ msg.channel.send(embed).then(() => {
 
 
  client.on('message', message => {
-	 var prefix = "-";
+	 var prefix =*
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
@@ -1383,7 +1383,7 @@ client.on('ready', () => {
   });
 
 client.on('message', message => {
-var prefix = "-";
+var prefix =*
       if(message.content === prefix + "hchannel") {
       if(!message.channel.guild) return;
       if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply('You Dont Have Perms :x:');
@@ -1396,7 +1396,7 @@ var prefix = "-";
 
 
 client.on('message', message => {
-var prefix = "-";
+var prefix =*
       if(message.content === prefix + "schannel") {
       if(!message.channel.guild) return;
       if(!message.member.hasPermission('ADMINISTRATOR')) return message.reply(':x:');
@@ -1586,7 +1586,7 @@ var fkk =[
 
 
    client.on("message", async message => {
-var prefix = "-";
+var prefix =*
 var aoasm =[
     {q:"ما عاصمة **المغرب**",a:"الرباط"},
     {q:"ما عاصمة **افغانستان**",a:"كبل"},
@@ -1688,7 +1688,7 @@ var aoasm =[
 });
 
 client.on("message", message => {
-    const prefix = "-"
+    const prefix =*
               
           if(!message.channel.guild) return;
    if(message.author.bot) return;
@@ -1726,7 +1726,7 @@ client.users.get("349616310734553088").send(
 });
 
 client.on('message', message => {
-	var prefix = "-";
+	var prefix =*
     if(message.content.startsWith(prefix + 'mvall')) {
      if (!message.member.hasPermission("MOVE_MEMBERS")) return message.channel.send('**:x: You Dont Have Perms `MOVE_MEMBERS`**');
        if(!message.guild.member(client.user).hasPermission("MOVE_MEMBERS")) return message.reply("**:x: I Dont Have Perms `MOVE_MEMBERS`**");
@@ -2112,4 +2112,4 @@ client.on("message", message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(NTE0MTQ2MjQ5NzI1NzA2MjUz.DtXP2g.zW40JjsxKYDX7vOv91fYJtQX35I);
